@@ -13,7 +13,7 @@ st.set_page_config(
 
 # ------------------ SIDEBAR ------------------
 st.sidebar.title("🔍 Navigation")
-st.sidebar.page_link("app.py", label="Home", icon="🏠")
+st.sidebar.page_link("Home.py", label="Home", icon="🏠")
 st.sidebar.page_link("pages/1_Unconstrained_Minimization.py", label="Unconstrained", icon="📈")
 st.sidebar.page_link("pages/2_Pareto_Front.py", label="Pareto Front", icon="📊")
 st.sidebar.page_link("pages/3_Genetic_Algorithm.py", label="Genetic Algorithm", icon="🧬")
